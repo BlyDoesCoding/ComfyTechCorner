@@ -1,10 +1,10 @@
 ---
-title: Example Category
+title: Guide
 description: A description of this category
-image:
+image: cover.png
 
 # Badge style
 style:
-    background: "#2a9d8f"
+    background: " #E8888A"
     color: "#fff"
 ---
