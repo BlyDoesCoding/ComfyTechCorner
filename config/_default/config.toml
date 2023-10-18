@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl = "https://blydoescoding.github.io"
+baseurl = "https://blydoescoding.github.io/ComfyTechCorner/"
 languageCode = "en-us"
 paginate = 5
 title = "Comfy Tech Corner"
