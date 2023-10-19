@@ -1,6 +1,6 @@
 ---
 title: Guide
-description: A description of this category
+description: A friendly guide to help you master things in a wonderfully thorough manner.
 image: cover.png
 
 # Badge style
