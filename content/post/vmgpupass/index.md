@@ -52,7 +52,7 @@ Navigate into the cloned folder and execute the `setup.sh` file provided:
 Step 4: Download OS ISO
 -----------------------
 
-Download the latest ISO of the OS you want to virtualize. For this example, let's use Windows 10 from [here](URL).
+Download the latest ISO of the OS you want to virtualize. For this example, let's use Windows 10 from [here](https://www.microsoft.com/de-de/software-download/windows10ISO).
 
 Step 5: Create Virtual Machine
 ------------------------------
@@ -78,7 +78,7 @@ Install the OS, then shut down the virtual machine.
 Step 8: Retrieve GPU BIOS
 -------------------------
 
-Retrieve your GPU's BIOS. You can conveniently download it [here](URL), or use various programs to dump your GPU BIOS:
+Retrieve your GPU's BIOS. You can conveniently download it [here](https://www.techpowerup.com/vgabios/), or use various programs to dump your GPU BIOS:
 
 *   Nvidia: NVIDIA NVFlash
 *   AMD: ATI ATIFlash
