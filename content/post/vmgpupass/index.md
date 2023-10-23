@@ -30,31 +30,31 @@ This concept is known as GPU passthrough, and it works by unbinding GPU drivers 
 Installation
 ============
 
-Step 1: Install Ubuntu
+Install Ubuntu
 ----------------------
 
 Start with the latest version of Ubuntu Desktop as your base OS.
 
-Step 2: Clone Repository
+Clone Repository
 ------------------------
 
 Clone the following GitHub repository using the terminal:
 
     git clone https://github.com/wabulu/Single-GPU-passthrough-amd-nvidia.git
 
-Step 3: Execute Setup Script
+Execute Setup Script
 ----------------------------
 
 Navigate into the cloned folder and execute the `setup.sh` file provided:
 
     sudo bash ./setup.sh
 
-Step 4: Download OS ISO
+Download OS ISO
 -----------------------
 
 Download the latest ISO of the OS you want to virtualize. For this example, let's use Windows 10 from [here](https://www.microsoft.com/de-de/software-download/windows10ISO).
 
-Step 5: Create Virtual Machine
+Create Virtual Machine
 ------------------------------
 
 Open your virtual machine manager and create a new virtual machine. Choose the downloaded ISO, follow the setup steps, and before finishing, check "Customize configuration." Configure the following options:
@@ -65,17 +65,17 @@ Open your virtual machine manager and create a new virtual machine. Choose the d
 *   Allocate 2 GB less RAM than you have
 *   Set your virtual disk's cache mode to writeback
 
-Step 6 (Windows only)
+(Windows only)
 ---------------------
 
 Download Virtio drivers and add them as a disk to your virtual setup. These drivers are necessary for Windows; most other OSs have them built-in.
 
-Step 7: Install OS
+Install OS
 ------------------
 
 Install the OS, then shut down the virtual machine.
 
-Step 8: Retrieve GPU BIOS
+Retrieve GPU BIOS
 -------------------------
 
 Retrieve your GPU's BIOS. You can conveniently download it [here](https://www.techpowerup.com/vgabios/), or use various programs to dump your GPU BIOS:
@@ -83,7 +83,7 @@ Retrieve your GPU's BIOS. You can conveniently download it [here](https://www.te
 *   Nvidia: NVIDIA NVFlash
 *   AMD: ATI ATIFlash
 
-Step 9: Add GPU ROM
+Add GPU ROM
 -------------------
 
 Place the GPU ROM in the following directory:
@@ -98,22 +98,22 @@ Place the GPU ROM in the following directory:
 
 Replace "yourusername" with your actual username.
 
-Step 10: Configure Virtual Machine
+Configure Virtual Machine
 ----------------------------------
 
 Remove any spice/qxl components in your virtual machine setup and add your GPU to the PCI section. You should have two devices for your GPU, so add both.
 
-Step 11: Edit GPU XML
+Edit GPU XML
 ---------------------
 
 Enable XML editing in the settings of your virtual machine manager and insert `<rom file='/var/lib/libvirt/vgabios/patched.rom'/>` into both of your GPU devices' XMLs, between "source" and "address."
 
-Step 12: Add Devices
+Add Devices
 --------------------
 
 Add your PCI host controller, audio controller, and any other devices you want to include.
 
-Step 13: Modify QEMU File
+Modify QEMU File
 -------------------------
 
 Check the `/etc/libvirt/hooks/qemu` file and edit the name of the placeholder "win10" to match your virtual machine's name. You can also add new sections by copying the existing one below it and editing the name.
