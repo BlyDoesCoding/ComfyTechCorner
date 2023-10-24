@@ -2,7 +2,7 @@
 title: Single GPU Passthrough Setup
 description: Unlock Multi-OS Flexibility with Single GPU Passthrough
 slug: vmgpupass
-date: 2023-10-23 00:00:00+0000
+date: 2023-10-23 10:20:00+0000
 image: cover.jpg
 categories:
     - Guide

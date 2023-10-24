@@ -2,7 +2,7 @@
 title: Improved Wayland Screen Sharing
 description: How to Fix Apps Like Discord to Stream on Wayland
 slug: wayland-streaming
-date: 2023-10-19 00:00:00+0000
+date: 2023-10-19 10:00:00+0000
 image: cover.png
 categories:
     - Guide
