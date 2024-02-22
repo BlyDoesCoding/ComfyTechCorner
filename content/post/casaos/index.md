@@ -37,3 +37,5 @@ Testing various apps confirmed my initial impression—they were not only easy t
 So, who would benefit most from CasaOS? It's a haven for new users, offering a straightforward installation and user-friendly interface. Even novices can revel in the convenience of one-click installs, ensuring a swift setup of various apps for those venturing into the realm of personal servers.
 
 For more information, you can visit their official website: [CasaOS](https://casaos.io/).
+
+
