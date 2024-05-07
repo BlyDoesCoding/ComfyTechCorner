@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Steam on Comfy Tech Corner</title><link>https://comfytechcorner.de/tags/steam/</link><description>Recent content in Steam on Comfy Tech Corner</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 07 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://comfytechcorner.de/tags/steam/index.xml" rel="self" type="application/rss+xml"/><item><title>Steam Deck Modding</title><link>https://comfytechcorner.de/p/steamdeck-modding/</link><pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate><guid>https://comfytechcorner.de/p/steamdeck-modding/</guid><description>&lt;img src="https://comfytechcorner.de/p/steamdeck-modding/cover.png" alt="Featured image of post Steam Deck Modding" />&lt;h2 id="introduction">Introduction
+&lt;/h2>&lt;p>The Steam Deck is a device that I became fascinated with instantly since it was announced. After using my LCD model for some time, I dived into the rabbit hole of modding it. I decided to write a comprehensive post about all the possibilities. Sit back, sip on your tea, and enjoy.&lt;/p>
+&lt;h2 id="accessories">Accessories
+&lt;/h2>&lt;p>Having useful utilities for your deck can greatly enhance your enjoyment of using it.&lt;/p>
+&lt;h3 id="sd-cards">SD Cards
+&lt;/h3>&lt;p>If you&amp;rsquo;re on a budget like me, you might have purchased a low-end 64GB (or lower storage in general) unit and simply need more space. The easiest solution is to buy an SD card and insert it into the easily accessible slot. Personally, I&amp;rsquo;ve had great experiences searching on Amazon for my desired size. It&amp;rsquo;s important to find one with adequate speed and capacity. Some even have &amp;ldquo;Steam Deck&amp;rdquo; in their description, which is usually a good sign. Nonetheless, don&amp;rsquo;t forget to check the reviews.&lt;/p>
+&lt;p>Another interesting method I&amp;rsquo;ve come across is using &amp;ldquo;cartridges&amp;rdquo;. Essentially, people purchase small-sized SD cards, print game covers, and load one or more games (e.g., a trilogy) onto each SD card. It&amp;rsquo;s convenient that the Steam Deck hot-reloads once a new SD card is inserted. Just ensure your preferred game is stored on the specific SD card. While I find this idea cute and awesome, it could be quite costly and require a case to hold them all.&lt;/p>
+&lt;p>Here is a video showcasing it: &lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/Pg2P8jfSHfA"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;h3 id="hubs">Hubs
+&lt;/h3>&lt;p>If you find yourself in need of more IO (e.g., to connect a monitor or mouse and keyboard), investing in a dock is advisable. It ultimately comes down to whether you choose the official route or opt for a third-party option. Frankly, I recommend going for a third-party one. The official option is undoubtedly good, but the price, at nearly 100 bucks (in my region), is quite steep. Valve has worked extensively to ensure the deck is compatible with various docks, most of which (realistically, all) should work as well as or better than the first-party one, often at lower prices.&lt;/p>
+&lt;p>Here&amp;rsquo;s a video from Cryobyte33, providing excellent technical content for the Steam Deck in Generell: &lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/wgZ1IQ8RBDE"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;h3 id="controllers">Controllers
+&lt;/h3>&lt;p>If you want to use controllers instead of the built-in input, simply use the one you already have or the one you&amp;rsquo;re accustomed to. That might sound a bit simple, but honestly, it&amp;rsquo;s the way to go. The Steam Deck supports virtually every controller out there, including excellent Bluetooth support. So, if you&amp;rsquo;re a Nintendo fan, a PlayStation person, or an Xbox human, just use what you know.&lt;/p>
+&lt;h3 id="cases">Cases
+&lt;/h3>&lt;p>If you&amp;rsquo;re like me and hold your Steam Deck very preciously, you may want a case. This is great for traveling or if you desire extra features like a kickstand. Since the OLED version maintains the same form factor as the old LCD model, both versions are compatible with every Steam Deck case being sold. Personally, I have a see-through hard plastic one, but you may look into getting different designs.&lt;/p>
+&lt;p>Dbrand is a popular (though pricey) awesome seller who offers well-made and highly reviewed cases and skins.&lt;/p>
+&lt;h2 id="hardware-modding">Hardware Modding
+&lt;/h2>&lt;p>Anything that involves opening or modifying the deck I would classify as hardware mods. These can vary in ease and will most likely void your warranty.
+Also &lt;strong>PLEASE REMOVE ANY SD CARD FROM THE SLOT BEFORE OPENING THE DECK!&lt;/strong>&lt;/p>
+&lt;h3 id="expanded-storage">Expanded Storage
+&lt;/h3>&lt;p>Even though the built-in SD card slot allows for easy expansion of storage, sometimes it&amp;rsquo;s just too slow or not enough space. Expanding the storage by replacing the SSD is a (relatively) easy task to do. There are many tutorials online that you can easily follow. You should keep in mind that iFixit is a wonderful source for such operations:&lt;/p>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/GSvdsic4_dk"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;h3 id="hall-effect-joysticks">Hall Effect Joysticks
+&lt;/h3>&lt;p>This upgrade is probably most beneficial for those whose joysticks malfunction or are very sensitive to dead zones. For those who don&amp;rsquo;t know, dead zones are like the space around the center of a joystick where it doesn&amp;rsquo;t respond to tiny movements, acting as a buffer to prevent accidental actions or shaky controls, resulting in (potentially) smoother gameplay.&lt;/p>
+&lt;p>Hall Effect joysticks from Gullikit can minimize the dead zone and have a longer lifespan compared to non-Hall Effect ones. If you don&amp;rsquo;t have any problems with your current ones, I would recommend waiting until you do, since you probably won&amp;rsquo;t notice much difference.&lt;/p>
+&lt;p>Here is a replacement guide:&lt;/p>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/FnIqILz6YjQ"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;h3 id="repaste">Repaste
+&lt;/h3>&lt;p>If you aren&amp;rsquo;t too technical, this might sound a bit weird, but it&amp;rsquo;s probably the best way to ensure longevity and a cool device. After some time, the old cooling paste can need replacement and may perform poorly, which means your fans will run louder and faster, draining more battery, and your device will become hot. Repasting involves removing the stock thermal paste and replacing it with new paste or pads, which you can buy at your local computer store or order online.&lt;/p>
+&lt;p>Personally, I&amp;rsquo;ve been using PTM 7950, which I ordered from Amazon. It&amp;rsquo;s a relatively new kind of cooling paste that works really well. Be aware that if you use it as well, look out for scams since they occur a lot.&lt;/p>
+&lt;p>Here is a guide on how to apply it (or any paste, really):&lt;/p>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/laUueUIRmxo"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;h3 id="shell-replacement-lcd-only">Shell Replacement (LCD only)
+&lt;/h3>&lt;p>Okay, this is pretty much the most invasive thing you can do.&lt;/p>
+&lt;p>I would recommend that if you&amp;rsquo;re not that tech-savvy, think about this twice. Replacing the back shell is relatively easy and something many people have done, it&amp;rsquo;s an awesome way to make your deck look different. Some even come with improved cooling capabilities. JSAUX is probably a good option here.&lt;/p>
+&lt;p>If you want to replace the front as well, you&amp;rsquo;ll be in for a ride, buddy. Replacing the front shell includes disassembling the whole device to every part and then doing that again in reverse. Also, getting the screen off from the old shell is really intense. If you&amp;rsquo;re really trying to get through with this, I would recommend getting the iFixit iOpener kit to help with the screen. Personally, it took me about 6 hours to complete, and I&amp;rsquo;m fairly happy with the result. I got mine from Extremerate.&lt;/p>
+&lt;p>They have a tutorial on how to do it with their kit:&lt;/p>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/0tBE10fSYBc"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;h3 id="fan-replacement">Fan Replacement
+&lt;/h3>&lt;p>If you are noise-sensitive and have an older Steam Deck model, you may want to look into getting a different fan. There are multiple fan models available, some of which are confirmed to be quieter. You can order them from iFixit if available. Before you buy, check first if you have the old one.&lt;/p>
+&lt;p>For more details, check out this video:&lt;/p>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/ZMRVZZkbu1s"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;h3 id="screen-replacements-lcd-only">Screen Replacements (LCD only)
+&lt;/h3>&lt;p>The biggest downside regarding the LCD Deck is the screen. An 800p LCD panel may not suit everyone&amp;rsquo;s preferences. Personally, I love the experience nonetheless and don&amp;rsquo;t want an OLED. But for those who can&amp;rsquo;t afford to buy an OLED but desire a better screen, DeckHD may be an option.&lt;/p>
+&lt;p>DeckHD is a company that sells an HD LCD panel with better color saturation than the original screen. While this option may sound great, it has many drawbacks. You need to go through a lot of steps to physically change the screen, which is very time-consuming and may be risky. Additionally, you need to flash the BIOS to make it function as intended, and the software may be affected by the larger screen. Moreover, the performance, especially for AAA Games, is noticeably worse.&lt;/p>
+&lt;p>While you sacrifice many aspects that I personally would prefer to have, the biggest hurdle is that you are 100% dependent on a company that provides BIOS patches, which may end at some point. Furthermore, there seems to be some drama and poor customer support surrounding the project, especially since the OLED model was announced.&lt;/p>
+&lt;p>If you would like to look into the project more, you can watch YouTube videos or join their Discord and ask directly:&lt;/p>
+&lt;p>&lt;a class="link" href="https://discord.gg/yYmVtT3bNF" target="_blank" rel="noopener"
+>DeckHD Discord&lt;/a>&lt;/p>
+&lt;h2 id="software-modding">Software Modding
+&lt;/h2>&lt;p>Software modding is usually an easy and non-invasive way to mod your Steam Deck.&lt;/p>
+&lt;h3 id="emulators">Emulators
+&lt;/h3>&lt;p>First of all, emulators work extremely well on the Steam Deck. With EmuDeck, you can easily install plenty of well-known, trusted emulators, and they will be automatically configured to work best on your device. I would recommend looking through their website &lt;a class="link" href="https://www.emudeck.com/" target="_blank" rel="noopener"
+>EmuDeck&lt;/a> and following their instructions.&lt;/p>
+&lt;p>If you are searching for a way to transfer your legally dumped ROMs onto the deck, my recommended method is KDE Connect. Set it up on both devices and send files via the app. EmuDeck also allows you to set up all your emulated games on your SD card, which is wonderful news for those with low storage.&lt;/p>
+&lt;p>Once you have set up everything, you&amp;rsquo;ll find all your playable games and emulators inside of the gamemode, just like any other game.&lt;/p>
+&lt;h3 id="decky-loader">Decky Loader
+&lt;/h3>&lt;p>&lt;a class="link" href="https://decky.xyz/" target="_blank" rel="noopener"
+>Decky Loader&lt;/a> is an awesome tool that provides a plugin system for the deck, which is feature-rich and easy to use. Here are some of my favorites.&lt;/p>
+&lt;h4 id="css-loader">CSS Loader
+&lt;/h4>&lt;p>CSS Loader is a plugin that offers fancy themes for modifying the software&amp;rsquo;s overall appearance. You can choose between dozens of themes and even apply multiple at the same time.&lt;/p>
+&lt;h4 id="game-theme-music">Game Theme Music
+&lt;/h4>&lt;p>Game Theme Music is a plugin that allows for in-game soundtrack playing when you are looking at a game. For example, imagine you&amp;rsquo;re considering playing Stardew Valley late at night, and as you hover over the launch button, the soundtrack starts playing—it&amp;rsquo;s an awesome feeling! While it may be considered useless by some, for many, it brings joy. It sources the soundtracks from YouTube, so you can customize the soundtrack played for each game in the settings accordingly.&lt;/p>
+&lt;h4 id="decky-recorder">Decky Recorder
+&lt;/h4>&lt;p>Decky Recorder is an easy-to-use recording tool, so you can show off your progress, create content, or simply have a way to share media easily. It&amp;rsquo;s relatively simple to use, and the quality seems good enough for most casual users.&lt;/p>
+&lt;h2 id="new-operating-systems-primarily-for-lcd-models">New Operating Systems (Primarily for LCD Models)
+&lt;/h2>&lt;p>While SteamOS by itself can be a bit restrictive, trying out different operating systems can unlock many ways to enjoy your games.&lt;/p>
+&lt;h3 id="bazzite-mouse-and-keyboard-required">Bazzite (Mouse and Keyboard Required)
+&lt;/h3>&lt;p>Bazzite is a relatively new OS that seems to work on many devices, not just the Steam Deck. It provides a SteamOS-like interface but with a much better desktop experience. Bazzite allows easy one-click installation for many popular gaming-related tools right from the start. It also provides firmware updates and easy access to different package managers, which basically gives you access to a vast amount of software. The integrated updater even manages that software as well. It seems like a great option for tinkers and people who are curious. Also, always remember that if you don&amp;rsquo;t like an OS, you can easily revert to the stock one by following Valve&amp;rsquo;s own guide.&lt;/p>
+&lt;h3 id="windows">Windows
+&lt;/h3>&lt;p>Windows offers one of the most complicated experiences in handheld gaming. While it allows for great compatibility, especially for non-game software or even some Windows-only emulators, the interface is just not optimized for handheld gaming. There are drivers coming directly from Valve, which make the experience far better than stock, but plenty of software is recommended for a great gaming experience.&lt;/p>
+&lt;p>SteamOS also currently does not support dual-booting, so you need to install Windows either on the SSD housing SteamOS or, if both OSs wish to be kept, install it on the SD card. Installing on an SD card can lower the performance, though.&lt;/p>
+&lt;p>I&amp;rsquo;d recommend you watch some videos on the topic beforehand.&lt;/p>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/SJnijd2fI5g"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div></description></item></channel></rss>

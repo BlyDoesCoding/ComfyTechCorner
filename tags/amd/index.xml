@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AMD on Comfy Tech Corner</title><link>https://comfytechcorner.de/tags/amd/</link><description>Recent content in AMD on Comfy Tech Corner</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 23 Oct 2023 10:20:00 +0000</lastBuildDate><atom:link href="https://comfytechcorner.de/tags/amd/index.xml" rel="self" type="application/rss+xml"/><item><title>Single GPU Passthrough Setup</title><link>https://comfytechcorner.de/p/vmgpupass/</link><pubDate>Mon, 23 Oct 2023 10:20:00 +0000</pubDate><guid>https://comfytechcorner.de/p/vmgpupass/</guid><description>&lt;img src="https://comfytechcorner.de/p/vmgpupass/cover.jpg" alt="Featured image of post Single GPU Passthrough Setup" />&lt;h1 id="the-problem">The Problem
+&lt;/h1>&lt;p>Most people are used to running a single operating system on their PC—it&amp;rsquo;s the way it&amp;rsquo;s meant to be, and it usually works like a charm. But what if you need to test something on a different OS or want to use software only available on another one? The traditional approach would be to dual-boot or even triple-boot, but let&amp;rsquo;s be honest, that can be a bit of a headache.&lt;/p>
+&lt;p>The problem with multiboot setups is that a Bootloader (often Windows) can mess with other bootloaders and leave you with an unbootable system. Managing your drives can also become a hassle since some operating systems use filesystems not supported by others.&lt;/p>
+&lt;p>A more convenient solution for testing and using different operating systems is to turn to virtual machines. With VMs, you sidestep the issues associated with multiboot setups. However, there&amp;rsquo;s often a trade-off in terms of performance, with your CPU taking a hit, and GPU performance suffering. But what if I told you there&amp;rsquo;s a way to pass a GPU to your virtual machine, unlocking 100% graphics performance?&lt;/p>
+&lt;p>This concept is known as GPU passthrough, and it works by unbinding GPU drivers from your base OS and rebinding the GPU to your virtual machine. The catch is that most guides on the internet require at least two GPUs, which can be a problem for those who can&amp;rsquo;t afford multiple graphics cards.&lt;/p>
+&lt;h1 id="installation">Installation
+&lt;/h1>&lt;h2 id="install-ubuntu">Install Ubuntu
+&lt;/h2>&lt;p>Start with the latest version of Ubuntu Desktop as your base OS.&lt;/p>
+&lt;h2 id="clone-repository">Clone Repository
+&lt;/h2>&lt;p>Clone the following GitHub repository using the terminal:&lt;/p>
+&lt;pre>&lt;code>git clone https://github.com/wabulu/Single-GPU-passthrough-amd-nvidia.git
+&lt;/code>&lt;/pre>
+&lt;h2 id="execute-setup-script">Execute Setup Script
+&lt;/h2>&lt;p>Navigate into the cloned folder and execute the &lt;code>setup.sh&lt;/code> file provided:&lt;/p>
+&lt;pre>&lt;code>sudo bash ./setup.sh
+&lt;/code>&lt;/pre>
+&lt;h2 id="download-os-iso">Download OS ISO
+&lt;/h2>&lt;p>Download the latest ISO of the OS you want to virtualize. For this example, let&amp;rsquo;s use Windows 10 from &lt;a class="link" href="https://www.microsoft.com/de-de/software-download/windows10ISO" target="_blank" rel="noopener"
+>here&lt;/a>.&lt;/p>
+&lt;h2 id="create-virtual-machine">Create Virtual Machine
+&lt;/h2>&lt;p>Open your virtual machine manager and create a new virtual machine. Choose the downloaded ISO, follow the setup steps, and before finishing, check &amp;ldquo;Customize configuration.&amp;rdquo; Configure the following options:&lt;/p>
+&lt;ul>
+&lt;li>Boot: &lt;code>/usr/share/OVMF/OVMF_CODE_4M.fd&lt;/code>&lt;/li>
+&lt;li>Chipset: &amp;ldquo;Q35&amp;rdquo;&lt;/li>
+&lt;li>CPU: 1 socket, X number of cores, 2 threads&lt;/li>
+&lt;li>Allocate 2 GB less RAM than you have&lt;/li>
+&lt;li>Set your virtual disk&amp;rsquo;s cache mode to writeback&lt;/li>
+&lt;/ul>
+&lt;h2 id="windows-only">(Windows only)
+&lt;/h2>&lt;p>Download Virtio drivers and add them as a disk to your virtual setup. These drivers are necessary for Windows; most other OSs have them built-in.&lt;/p>
+&lt;h2 id="install-os">Install OS
+&lt;/h2>&lt;p>Install the OS, then shut down the virtual machine.&lt;/p>
+&lt;h2 id="retrieve-gpu-bios">Retrieve GPU BIOS
+&lt;/h2>&lt;p>Retrieve your GPU&amp;rsquo;s BIOS. You can conveniently download it &lt;a class="link" href="https://www.techpowerup.com/vgabios/" target="_blank" rel="noopener"
+>here&lt;/a>, or use various programs to dump your GPU BIOS:&lt;/p>
+&lt;ul>
+&lt;li>Nvidia: NVIDIA NVFlash&lt;/li>
+&lt;li>AMD: ATI ATIFlash&lt;/li>
+&lt;/ul>
+&lt;h2 id="add-gpu-rom">Add GPU ROM
+&lt;/h2>&lt;p>Place the GPU ROM in the following directory:&lt;/p>
+&lt;pre>&lt;code> sudo mkdir /usr/share/vgabios
+cp ./patched.rom /usr/share/vgabios/
+cd /usr/share/vgabios
+sudo chmod -R 644 patched.rom
+sudo chown yourusername:yourusername patched.rom
+&lt;/code>&lt;/pre>
+&lt;p>Replace &amp;ldquo;yourusername&amp;rdquo; with your actual username.&lt;/p>
+&lt;h2 id="configure-virtual-machine">Configure Virtual Machine
+&lt;/h2>&lt;p>Remove any spice/qxl components in your virtual machine setup and add your GPU to the PCI section. You should have two devices for your GPU, so add both.&lt;/p>
+&lt;h2 id="edit-gpu-xml">Edit GPU XML
+&lt;/h2>&lt;p>Enable XML editing in the settings of your virtual machine manager and insert &lt;code>&amp;lt;rom file='/var/lib/libvirt/vgabios/patched.rom'/&amp;gt;&lt;/code> into both of your GPU devices&amp;rsquo; XMLs, between &amp;ldquo;source&amp;rdquo; and &amp;ldquo;address.&amp;rdquo;&lt;/p>
+&lt;h2 id="add-devices">Add Devices
+&lt;/h2>&lt;p>Add your PCI host controller, audio controller, and any other devices you want to include.&lt;/p>
+&lt;h2 id="modify-qemu-file">Modify QEMU File
+&lt;/h2>&lt;p>Check the &lt;code>/etc/libvirt/hooks/qemu&lt;/code> file and edit the name of the placeholder &amp;ldquo;win10&amp;rdquo; to match your virtual machine&amp;rsquo;s name. You can also add new sections by copying the existing one below it and editing the name.&lt;/p>
+&lt;h1 id="conclusion">Conclusion
+&lt;/h1>&lt;p>If everything worked as expected, you now have an awesome setup that can run virtually any OS. You can enjoy gaming on Windows, code on your favorite Linux distribution, and maybe even tinker with BSD somehow. It&amp;rsquo;s all at your fingertips now.&lt;/p></description></item></channel></rss>

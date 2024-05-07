@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>X on Comfy Tech Corner</title><link>https://comfytechcorner.de/tags/x/</link><description>Recent content in X on Comfy Tech Corner</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 19 Oct 2023 10:00:00 +0000</lastBuildDate><atom:link href="https://comfytechcorner.de/tags/x/index.xml" rel="self" type="application/rss+xml"/><item><title>Improved Wayland Screen Sharing</title><link>https://comfytechcorner.de/p/wayland-streaming/</link><pubDate>Thu, 19 Oct 2023 10:00:00 +0000</pubDate><guid>https://comfytechcorner.de/p/wayland-streaming/</guid><description>&lt;img src="https://comfytechcorner.de/p/wayland-streaming/cover.png" alt="Featured image of post Improved Wayland Screen Sharing" />&lt;h1 id="how-to-use-x-apps-that-cannot-capture-your-screen-on-wayland">How to Use x Apps That Cannot Capture Your Screen on Wayland
+&lt;/h1>&lt;p>Gone are the days when you couldn&amp;rsquo;t stream your screen on apps like Discord. Let me introduce you to a nifty tool called xwaylandvideobridge. It&amp;rsquo;s incredibly straightforward to set up and packs a punch in terms of functionality. So, grab a cup of tea, take a seat, and i will accompany you on this journey of seamless screen sharing with your friends on a modern graphics stack.&lt;/p>
+&lt;h2 id="installation">Installation
+&lt;/h2>&lt;h3 id="step-1-downloading">Step 1 Downloading
+&lt;/h3>&lt;ol>
+&lt;li>First, head over to &lt;a class="link" href="https://invent.kde.org/system/xwaylandvideobridge" target="_blank" rel="noopener"
+>xwaylandvideobridge on KDE GitLab&lt;/a>.&lt;/li>
+&lt;li>On the left sidebar, click on &amp;ldquo;CI/CD.&amp;rdquo;&lt;/li>
+&lt;li>Download the latest Flatpak archive artifact and unzip it. (Note: If the latest release doesn&amp;rsquo;t have any artifacts, proceed with the a older Release.)&lt;/li>
+&lt;/ol>
+&lt;h3 id="step-2-installing">Step 2 Installing
+&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>Ensure you have Flatpak and Flathub installed. (If you haven&amp;rsquo;t, visit &lt;a class="link" href="https://flathub.org/setup" target="_blank" rel="noopener"
+>Flathub setup&lt;/a>.)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open a terminal and navigate to your Downloads Folder.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Execute the following command:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">flatpak install xwaylandvideobridge.flatpak
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>If prompted, type &amp;lsquo;Y&amp;rsquo; and enter your password when necessary.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once the installation is complete, you can launch the program by running:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">flatpak run org.kde.xwaylandvideobridge
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;/ol>
+&lt;h3 id="step-3-autostart-optional">Step 3 Autostart (optional)
+&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>You can create a new text file named &amp;ldquo;videobridge.sh.&amp;rdquo; You can do this using a text editor or through the command line. For instance, in the terminal, you can use the following command to create the file:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">touch videobridge.sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Open the &amp;ldquo;videobridge.sh&amp;rdquo; file with a text editor of your choice, such as nano, vim, or gedit. For example:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">nano videobridge.sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>In the &amp;ldquo;videobridge.sh&amp;rdquo; file, insert the following line:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">flatpak run org.kde.xwaylandvideobridge
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Save and close the file in your text editor. If you&amp;rsquo;re using nano, you can save by pressing Ctrl + O, then press Enter, and exit by pressing Ctrl + X.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Now, you&amp;rsquo;ll need to add the &amp;ldquo;videobridge.sh&amp;rdquo; script to your desktop environment&amp;rsquo;s autostart configuration. The process may vary depending on your desktop environment.&lt;/p>
+&lt;p>In KDE:&lt;/p>
+&lt;ul>
+&lt;li>Open &amp;ldquo;System Settings.&amp;rdquo;&lt;/li>
+&lt;li>Navigate to &amp;ldquo;Startup and Shutdown.&amp;rdquo; &amp;gt; &amp;ldquo;Autostart&amp;rdquo;&lt;/li>
+&lt;li>Click &amp;ldquo;Add Script.&amp;rdquo;&lt;/li>
+&lt;li>Browse and select the &amp;ldquo;videobridge.sh&amp;rdquo; script you created.&lt;/li>
+&lt;li>Save your changes, and the script will run automatically with every session.&lt;/li>
+&lt;/ul>
+&lt;p>For other desktop environments or window managers, there are similar ways to accomplish this.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="how-to-use-it">How to Use It
+&lt;/h2>&lt;p>Once you&amp;rsquo;ve started the application, every time you attempt to capture a window or your screen, a window will appear where you can choose the source of the video stream. After selecting one, xwaylandvideobridge should display a window that you can capture in the program you are using. I&amp;rsquo;ve mainly tested this with Discord, and it works virtually bug-free with excellent performance. Give it a try!&lt;/p></description></item></channel></rss>

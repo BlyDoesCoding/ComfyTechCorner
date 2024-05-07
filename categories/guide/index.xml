@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guide on Comfy Tech Corner</title><link>https://comfytechcorner.de/categories/guide/</link><description>Recent content in Guide on Comfy Tech Corner</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 07 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://comfytechcorner.de/categories/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>Steam Deck Modding</title><link>https://comfytechcorner.de/p/steamdeck-modding/</link><pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate><guid>https://comfytechcorner.de/p/steamdeck-modding/</guid><description>&lt;img src="https://comfytechcorner.de/p/steamdeck-modding/cover.png" alt="Featured image of post Steam Deck Modding" />&lt;h2 id="introduction">Introduction
+&lt;/h2>&lt;p>The Steam Deck is a device that I became fascinated with instantly since it was announced. After using my LCD model for some time, I dived into the rabbit hole of modding it. I decided to write a comprehensive post about all the possibilities. Sit back, sip on your tea, and enjoy.&lt;/p>
+&lt;h2 id="accessories">Accessories
+&lt;/h2>&lt;p>Having useful utilities for your deck can greatly enhance your enjoyment of using it.&lt;/p>
+&lt;h3 id="sd-cards">SD Cards
+&lt;/h3>&lt;p>If you&amp;rsquo;re on a budget like me, you might have purchased a low-end 64GB (or lower storage in general) unit and simply need more space. The easiest solution is to buy an SD card and insert it into the easily accessible slot. Personally, I&amp;rsquo;ve had great experiences searching on Amazon for my desired size. It&amp;rsquo;s important to find one with adequate speed and capacity. Some even have &amp;ldquo;Steam Deck&amp;rdquo; in their description, which is usually a good sign. Nonetheless, don&amp;rsquo;t forget to check the reviews.&lt;/p>
+&lt;p>Another interesting method I&amp;rsquo;ve come across is using &amp;ldquo;cartridges&amp;rdquo;. Essentially, people purchase small-sized SD cards, print game covers, and load one or more games (e.g., a trilogy) onto each SD card. It&amp;rsquo;s convenient that the Steam Deck hot-reloads once a new SD card is inserted. Just ensure your preferred game is stored on the specific SD card. While I find this idea cute and awesome, it could be quite costly and require a case to hold them all.&lt;/p>
+&lt;p>Here is a video showcasing it: &lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/Pg2P8jfSHfA"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;h3 id="hubs">Hubs
+&lt;/h3>&lt;p>If you find yourself in need of more IO (e.g., to connect a monitor or mouse and keyboard), investing in a dock is advisable. It ultimately comes down to whether you choose the official route or opt for a third-party option. Frankly, I recommend going for a third-party one. The official option is undoubtedly good, but the price, at nearly 100 bucks (in my region), is quite steep. Valve has worked extensively to ensure the deck is compatible with various docks, most of which (realistically, all) should work as well as or better than the first-party one, often at lower prices.&lt;/p>
+&lt;p>Here&amp;rsquo;s a video from Cryobyte33, providing excellent technical content for the Steam Deck in Generell: &lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/wgZ1IQ8RBDE"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;h3 id="controllers">Controllers
+&lt;/h3>&lt;p>If you want to use controllers instead of the built-in input, simply use the one you already have or the one you&amp;rsquo;re accustomed to. That might sound a bit simple, but honestly, it&amp;rsquo;s the way to go. The Steam Deck supports virtually every controller out there, including excellent Bluetooth support. So, if you&amp;rsquo;re a Nintendo fan, a PlayStation person, or an Xbox human, just use what you know.&lt;/p>
+&lt;h3 id="cases">Cases
+&lt;/h3>&lt;p>If you&amp;rsquo;re like me and hold your Steam Deck very preciously, you may want a case. This is great for traveling or if you desire extra features like a kickstand. Since the OLED version maintains the same form factor as the old LCD model, both versions are compatible with every Steam Deck case being sold. Personally, I have a see-through hard plastic one, but you may look into getting different designs.&lt;/p>
+&lt;p>Dbrand is a popular (though pricey) awesome seller who offers well-made and highly reviewed cases and skins.&lt;/p>
+&lt;h2 id="hardware-modding">Hardware Modding
+&lt;/h2>&lt;p>Anything that involves opening or modifying the deck I would classify as hardware mods. These can vary in ease and will most likely void your warranty.
+Also &lt;strong>PLEASE REMOVE ANY SD CARD FROM THE SLOT BEFORE OPENING THE DECK!&lt;/strong>&lt;/p>
+&lt;h3 id="expanded-storage">Expanded Storage
+&lt;/h3>&lt;p>Even though the built-in SD card slot allows for easy expansion of storage, sometimes it&amp;rsquo;s just too slow or not enough space. Expanding the storage by replacing the SSD is a (relatively) easy task to do. There are many tutorials online that you can easily follow. You should keep in mind that iFixit is a wonderful source for such operations:&lt;/p>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/GSvdsic4_dk"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;h3 id="hall-effect-joysticks">Hall Effect Joysticks
+&lt;/h3>&lt;p>This upgrade is probably most beneficial for those whose joysticks malfunction or are very sensitive to dead zones. For those who don&amp;rsquo;t know, dead zones are like the space around the center of a joystick where it doesn&amp;rsquo;t respond to tiny movements, acting as a buffer to prevent accidental actions or shaky controls, resulting in (potentially) smoother gameplay.&lt;/p>
+&lt;p>Hall Effect joysticks from Gullikit can minimize the dead zone and have a longer lifespan compared to non-Hall Effect ones. If you don&amp;rsquo;t have any problems with your current ones, I would recommend waiting until you do, since you probably won&amp;rsquo;t notice much difference.&lt;/p>
+&lt;p>Here is a replacement guide:&lt;/p>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/FnIqILz6YjQ"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;h3 id="repaste">Repaste
+&lt;/h3>&lt;p>If you aren&amp;rsquo;t too technical, this might sound a bit weird, but it&amp;rsquo;s probably the best way to ensure longevity and a cool device. After some time, the old cooling paste can need replacement and may perform poorly, which means your fans will run louder and faster, draining more battery, and your device will become hot. Repasting involves removing the stock thermal paste and replacing it with new paste or pads, which you can buy at your local computer store or order online.&lt;/p>
+&lt;p>Personally, I&amp;rsquo;ve been using PTM 7950, which I ordered from Amazon. It&amp;rsquo;s a relatively new kind of cooling paste that works really well. Be aware that if you use it as well, look out for scams since they occur a lot.&lt;/p>
+&lt;p>Here is a guide on how to apply it (or any paste, really):&lt;/p>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/laUueUIRmxo"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;h3 id="shell-replacement-lcd-only">Shell Replacement (LCD only)
+&lt;/h3>&lt;p>Okay, this is pretty much the most invasive thing you can do.&lt;/p>
+&lt;p>I would recommend that if you&amp;rsquo;re not that tech-savvy, think about this twice. Replacing the back shell is relatively easy and something many people have done, it&amp;rsquo;s an awesome way to make your deck look different. Some even come with improved cooling capabilities. JSAUX is probably a good option here.&lt;/p>
+&lt;p>If you want to replace the front as well, you&amp;rsquo;ll be in for a ride, buddy. Replacing the front shell includes disassembling the whole device to every part and then doing that again in reverse. Also, getting the screen off from the old shell is really intense. If you&amp;rsquo;re really trying to get through with this, I would recommend getting the iFixit iOpener kit to help with the screen. Personally, it took me about 6 hours to complete, and I&amp;rsquo;m fairly happy with the result. I got mine from Extremerate.&lt;/p>
+&lt;p>They have a tutorial on how to do it with their kit:&lt;/p>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/0tBE10fSYBc"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;h3 id="fan-replacement">Fan Replacement
+&lt;/h3>&lt;p>If you are noise-sensitive and have an older Steam Deck model, you may want to look into getting a different fan. There are multiple fan models available, some of which are confirmed to be quieter. You can order them from iFixit if available. Before you buy, check first if you have the old one.&lt;/p>
+&lt;p>For more details, check out this video:&lt;/p>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/ZMRVZZkbu1s"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;h3 id="screen-replacements-lcd-only">Screen Replacements (LCD only)
+&lt;/h3>&lt;p>The biggest downside regarding the LCD Deck is the screen. An 800p LCD panel may not suit everyone&amp;rsquo;s preferences. Personally, I love the experience nonetheless and don&amp;rsquo;t want an OLED. But for those who can&amp;rsquo;t afford to buy an OLED but desire a better screen, DeckHD may be an option.&lt;/p>
+&lt;p>DeckHD is a company that sells an HD LCD panel with better color saturation than the original screen. While this option may sound great, it has many drawbacks. You need to go through a lot of steps to physically change the screen, which is very time-consuming and may be risky. Additionally, you need to flash the BIOS to make it function as intended, and the software may be affected by the larger screen. Moreover, the performance, especially for AAA Games, is noticeably worse.&lt;/p>
+&lt;p>While you sacrifice many aspects that I personally would prefer to have, the biggest hurdle is that you are 100% dependent on a company that provides BIOS patches, which may end at some point. Furthermore, there seems to be some drama and poor customer support surrounding the project, especially since the OLED model was announced.&lt;/p>
+&lt;p>If you would like to look into the project more, you can watch YouTube videos or join their Discord and ask directly:&lt;/p>
+&lt;p>&lt;a class="link" href="https://discord.gg/yYmVtT3bNF" target="_blank" rel="noopener"
+>DeckHD Discord&lt;/a>&lt;/p>
+&lt;h2 id="software-modding">Software Modding
+&lt;/h2>&lt;p>Software modding is usually an easy and non-invasive way to mod your Steam Deck.&lt;/p>
+&lt;h3 id="emulators">Emulators
+&lt;/h3>&lt;p>First of all, emulators work extremely well on the Steam Deck. With EmuDeck, you can easily install plenty of well-known, trusted emulators, and they will be automatically configured to work best on your device. I would recommend looking through their website &lt;a class="link" href="https://www.emudeck.com/" target="_blank" rel="noopener"
+>EmuDeck&lt;/a> and following their instructions.&lt;/p>
+&lt;p>If you are searching for a way to transfer your legally dumped ROMs onto the deck, my recommended method is KDE Connect. Set it up on both devices and send files via the app. EmuDeck also allows you to set up all your emulated games on your SD card, which is wonderful news for those with low storage.&lt;/p>
+&lt;p>Once you have set up everything, you&amp;rsquo;ll find all your playable games and emulators inside of the gamemode, just like any other game.&lt;/p>
+&lt;h3 id="decky-loader">Decky Loader
+&lt;/h3>&lt;p>&lt;a class="link" href="https://decky.xyz/" target="_blank" rel="noopener"
+>Decky Loader&lt;/a> is an awesome tool that provides a plugin system for the deck, which is feature-rich and easy to use. Here are some of my favorites.&lt;/p>
+&lt;h4 id="css-loader">CSS Loader
+&lt;/h4>&lt;p>CSS Loader is a plugin that offers fancy themes for modifying the software&amp;rsquo;s overall appearance. You can choose between dozens of themes and even apply multiple at the same time.&lt;/p>
+&lt;h4 id="game-theme-music">Game Theme Music
+&lt;/h4>&lt;p>Game Theme Music is a plugin that allows for in-game soundtrack playing when you are looking at a game. For example, imagine you&amp;rsquo;re considering playing Stardew Valley late at night, and as you hover over the launch button, the soundtrack starts playing—it&amp;rsquo;s an awesome feeling! While it may be considered useless by some, for many, it brings joy. It sources the soundtracks from YouTube, so you can customize the soundtrack played for each game in the settings accordingly.&lt;/p>
+&lt;h4 id="decky-recorder">Decky Recorder
+&lt;/h4>&lt;p>Decky Recorder is an easy-to-use recording tool, so you can show off your progress, create content, or simply have a way to share media easily. It&amp;rsquo;s relatively simple to use, and the quality seems good enough for most casual users.&lt;/p>
+&lt;h2 id="new-operating-systems-primarily-for-lcd-models">New Operating Systems (Primarily for LCD Models)
+&lt;/h2>&lt;p>While SteamOS by itself can be a bit restrictive, trying out different operating systems can unlock many ways to enjoy your games.&lt;/p>
+&lt;h3 id="bazzite-mouse-and-keyboard-required">Bazzite (Mouse and Keyboard Required)
+&lt;/h3>&lt;p>Bazzite is a relatively new OS that seems to work on many devices, not just the Steam Deck. It provides a SteamOS-like interface but with a much better desktop experience. Bazzite allows easy one-click installation for many popular gaming-related tools right from the start. It also provides firmware updates and easy access to different package managers, which basically gives you access to a vast amount of software. The integrated updater even manages that software as well. It seems like a great option for tinkers and people who are curious. Also, always remember that if you don&amp;rsquo;t like an OS, you can easily revert to the stock one by following Valve&amp;rsquo;s own guide.&lt;/p>
+&lt;h3 id="windows">Windows
+&lt;/h3>&lt;p>Windows offers one of the most complicated experiences in handheld gaming. While it allows for great compatibility, especially for non-game software or even some Windows-only emulators, the interface is just not optimized for handheld gaming. There are drivers coming directly from Valve, which make the experience far better than stock, but plenty of software is recommended for a great gaming experience.&lt;/p>
+&lt;p>SteamOS also currently does not support dual-booting, so you need to install Windows either on the SSD housing SteamOS or, if both OSs wish to be kept, install it on the SD card. Installing on an SD card can lower the performance, though.&lt;/p>
+&lt;p>I&amp;rsquo;d recommend you watch some videos on the topic beforehand.&lt;/p>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/SJnijd2fI5g"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div></description></item><item><title>CasaOS</title><link>https://comfytechcorner.de/p/casaos/</link><pubDate>Tue, 16 Jan 2024 10:00:00 +0000</pubDate><guid>https://comfytechcorner.de/p/casaos/</guid><description>&lt;img src="https://comfytechcorner.de/p/casaos/cover.jpg" alt="Featured image of post CasaOS" />&lt;h2 id="exploring-casaos-for-server-revamp">Exploring CasaOS for Server Revamp
+&lt;/h2>&lt;p>I was eager to revamp my home server and embarked on a quest for new software projects that could breathe fresh life into it. That&amp;rsquo;s when I stumbled upon &lt;a class="link" href="https://github.com/IceWhaleTech/CasaOS" target="_blank" rel="noopener"
+>CasaOS&lt;/a>.&lt;/p>
+&lt;h2 id="not-just-an-os-but-a-user-friendly-web-panel">Not Just an OS, But a User-Friendly Web Panel
+&lt;/h2>&lt;p>Contrary to its name, CasaOS isn&amp;rsquo;t an operating system; rather, it&amp;rsquo;s a user-friendly web panel designed specifically for Linux servers. What caught my eye was its own &amp;ldquo;App Store,&amp;rdquo; a hub where I could effortlessly download popular server apps like Nextcloud or Jellyfin. The user interface is refreshingly minimalistic, making it a breeze to navigate. The installation process was a simple matter of copy-pasting a concise command. From the get-go, everything felt seamless.&lt;/p>
+&lt;h2 id="seamless-setup-and-minimalistic-customization">Seamless Setup and Minimalistic Customization
+&lt;/h2>&lt;p>Upon accessing the server&amp;rsquo;s IP, I set up a user account, and just like that, I was good to go. Initial exploration revealed options that, while minimal, struck me as strangely comforting, almost liminal. Apart from tweaking the widgets and perhaps the wallpaper, customization options were limited. Yet, I found this limitation to be a positive aspect. Too many choices can overwhelm new users, and CasaOS provides a user-friendly sanctuary in this regard.&lt;/p>
+&lt;h2 id="simplicity-and-why-its-awesome">Simplicity and why it&amp;rsquo;s awesome
+&lt;/h2>&lt;p>Comparing it to more complex options like Nextcloud, CasaOS stood out for its simplicity. Nextcloud, powerful as it is, can be daunting for newcomers. CasaOS, on the other hand, seamlessly integrates with its apps. Utilizing Docker, it facilitates the sharing of specific folders across applications. A prime example was the creation of media folders for Jellyfin, accessible both through the Jellyfin setup and CasaOS&amp;rsquo;s built-in file management tools. Uploading media became a simple act of dropping files into the Files app.
+Testing various apps confirmed my initial impression—they were not only easy to use but also well-integrated. Another noteworthy aspect is CasaOS&amp;rsquo;s commitment to being fully open source; you can delve into its source code on &lt;a class="link" href="https://github.com/IceWhaleTech/CasaOS" target="_blank" rel="noopener"
+>GitHub&lt;/a>.&lt;/p>
+&lt;h2 id="who-would-benefit-from-casaos">Who Would Benefit from CasaOS?
+&lt;/h2>&lt;p>So, who would benefit most from CasaOS? It&amp;rsquo;s a haven for new users, offering a straightforward installation and user-friendly interface. Even novices can revel in the convenience of one-click installs, ensuring a swift setup of various apps for those venturing into the realm of personal servers.&lt;/p>
+&lt;p>For more information, you can visit their official website: &lt;a class="link" href="https://casaos.io/" target="_blank" rel="noopener"
+>CasaOS&lt;/a>.&lt;/p></description></item><item><title>Accessing Knowledge Offline</title><link>https://comfytechcorner.de/p/offline-wikipedia/</link><pubDate>Tue, 24 Oct 2023 10:00:00 +0000</pubDate><guid>https://comfytechcorner.de/p/offline-wikipedia/</guid><description>&lt;img src="https://comfytechcorner.de/p/offline-wikipedia/cover.jpg" alt="Featured image of post Accessing Knowledge Offline" />&lt;h2 id="the-concept">The Concept
+&lt;/h2>&lt;p>Accessing internet articles, like Wikipedia entries, is usually straightforward as they&amp;rsquo;re hosted on remote servers. However, problems can arise with slow, limited, or no internet access. Downloading web pages for offline reading is an option, but there&amp;rsquo;s a more elegant and convenient solution.&lt;/p>
+&lt;h2 id="kiwix">Kiwix
+&lt;/h2>&lt;p>Let me introduce you to Kiwix, an open-source app that simplifies downloading and reading web content, including Wikipedia, in a user-friendly format.&lt;/p>
+&lt;p>You can find Kiwix on their website &lt;a class="link" href="https://kiwix.org" target="_blank" rel="noopener"
+>here&lt;/a> or explore their GitHub page &lt;a class="link" href="https://github.com/kiwix" target="_blank" rel="noopener"
+>here&lt;/a>. The best part is that Kiwix is available for almost every platform.&lt;/p>
+&lt;h2 id="usage">Usage
+&lt;/h2>&lt;p>I personally use Kiwix on my Android phone, which doesn&amp;rsquo;t always have a reliable internet connection. When you open the app, you&amp;rsquo;ll see three tabs at the bottom.&lt;/p>
+&lt;p>Start by downloading the web content you&amp;rsquo;d like to read offline. I&amp;rsquo;ve downloaded various Wikipedia collections, such as science, history, and media. You can even download the entire Wikipedia if you prefer.&lt;/p>
+&lt;p>Once your favorite articles, books, and media are downloaded, go to the library tab. Here, you can access all your downloads. Select the one you&amp;rsquo;re interested in and search for the section you want to read.&lt;/p>
+&lt;p>It&amp;rsquo;s a simple and effective way to access important information without relying on your internet connection.&lt;/p>
+&lt;h2 id="why-i-think-it-is-important">Why I Think It Is Important
+&lt;/h2>&lt;p>Many countries face limited internet access, but access to information remains crucial. We&amp;rsquo;ve become accustomed to finding information for various situations, and not having that due to internet issues can be a significant drawback.&lt;/p>
+&lt;h2 id="conclusion">Conclusion
+&lt;/h2>&lt;p>Kiwix is a wonderful open-source app that allows you to save and view articles offline, ensuring access to information in any situation while keeping it true to the original text&amp;rsquo;s essence.&lt;/p></description></item><item><title>Single GPU Passthrough Setup</title><link>https://comfytechcorner.de/p/vmgpupass/</link><pubDate>Mon, 23 Oct 2023 10:20:00 +0000</pubDate><guid>https://comfytechcorner.de/p/vmgpupass/</guid><description>&lt;img src="https://comfytechcorner.de/p/vmgpupass/cover.jpg" alt="Featured image of post Single GPU Passthrough Setup" />&lt;h1 id="the-problem">The Problem
+&lt;/h1>&lt;p>Most people are used to running a single operating system on their PC—it&amp;rsquo;s the way it&amp;rsquo;s meant to be, and it usually works like a charm. But what if you need to test something on a different OS or want to use software only available on another one? The traditional approach would be to dual-boot or even triple-boot, but let&amp;rsquo;s be honest, that can be a bit of a headache.&lt;/p>
+&lt;p>The problem with multiboot setups is that a Bootloader (often Windows) can mess with other bootloaders and leave you with an unbootable system. Managing your drives can also become a hassle since some operating systems use filesystems not supported by others.&lt;/p>
+&lt;p>A more convenient solution for testing and using different operating systems is to turn to virtual machines. With VMs, you sidestep the issues associated with multiboot setups. However, there&amp;rsquo;s often a trade-off in terms of performance, with your CPU taking a hit, and GPU performance suffering. But what if I told you there&amp;rsquo;s a way to pass a GPU to your virtual machine, unlocking 100% graphics performance?&lt;/p>
+&lt;p>This concept is known as GPU passthrough, and it works by unbinding GPU drivers from your base OS and rebinding the GPU to your virtual machine. The catch is that most guides on the internet require at least two GPUs, which can be a problem for those who can&amp;rsquo;t afford multiple graphics cards.&lt;/p>
+&lt;h1 id="installation">Installation
+&lt;/h1>&lt;h2 id="install-ubuntu">Install Ubuntu
+&lt;/h2>&lt;p>Start with the latest version of Ubuntu Desktop as your base OS.&lt;/p>
+&lt;h2 id="clone-repository">Clone Repository
+&lt;/h2>&lt;p>Clone the following GitHub repository using the terminal:&lt;/p>
+&lt;pre>&lt;code>git clone https://github.com/wabulu/Single-GPU-passthrough-amd-nvidia.git
+&lt;/code>&lt;/pre>
+&lt;h2 id="execute-setup-script">Execute Setup Script
+&lt;/h2>&lt;p>Navigate into the cloned folder and execute the &lt;code>setup.sh&lt;/code> file provided:&lt;/p>
+&lt;pre>&lt;code>sudo bash ./setup.sh
+&lt;/code>&lt;/pre>
+&lt;h2 id="download-os-iso">Download OS ISO
+&lt;/h2>&lt;p>Download the latest ISO of the OS you want to virtualize. For this example, let&amp;rsquo;s use Windows 10 from &lt;a class="link" href="https://www.microsoft.com/de-de/software-download/windows10ISO" target="_blank" rel="noopener"
+>here&lt;/a>.&lt;/p>
+&lt;h2 id="create-virtual-machine">Create Virtual Machine
+&lt;/h2>&lt;p>Open your virtual machine manager and create a new virtual machine. Choose the downloaded ISO, follow the setup steps, and before finishing, check &amp;ldquo;Customize configuration.&amp;rdquo; Configure the following options:&lt;/p>
+&lt;ul>
+&lt;li>Boot: &lt;code>/usr/share/OVMF/OVMF_CODE_4M.fd&lt;/code>&lt;/li>
+&lt;li>Chipset: &amp;ldquo;Q35&amp;rdquo;&lt;/li>
+&lt;li>CPU: 1 socket, X number of cores, 2 threads&lt;/li>
+&lt;li>Allocate 2 GB less RAM than you have&lt;/li>
+&lt;li>Set your virtual disk&amp;rsquo;s cache mode to writeback&lt;/li>
+&lt;/ul>
+&lt;h2 id="windows-only">(Windows only)
+&lt;/h2>&lt;p>Download Virtio drivers and add them as a disk to your virtual setup. These drivers are necessary for Windows; most other OSs have them built-in.&lt;/p>
+&lt;h2 id="install-os">Install OS
+&lt;/h2>&lt;p>Install the OS, then shut down the virtual machine.&lt;/p>
+&lt;h2 id="retrieve-gpu-bios">Retrieve GPU BIOS
+&lt;/h2>&lt;p>Retrieve your GPU&amp;rsquo;s BIOS. You can conveniently download it &lt;a class="link" href="https://www.techpowerup.com/vgabios/" target="_blank" rel="noopener"
+>here&lt;/a>, or use various programs to dump your GPU BIOS:&lt;/p>
+&lt;ul>
+&lt;li>Nvidia: NVIDIA NVFlash&lt;/li>
+&lt;li>AMD: ATI ATIFlash&lt;/li>
+&lt;/ul>
+&lt;h2 id="add-gpu-rom">Add GPU ROM
+&lt;/h2>&lt;p>Place the GPU ROM in the following directory:&lt;/p>
+&lt;pre>&lt;code> sudo mkdir /usr/share/vgabios
+cp ./patched.rom /usr/share/vgabios/
+cd /usr/share/vgabios
+sudo chmod -R 644 patched.rom
+sudo chown yourusername:yourusername patched.rom
+&lt;/code>&lt;/pre>
+&lt;p>Replace &amp;ldquo;yourusername&amp;rdquo; with your actual username.&lt;/p>
+&lt;h2 id="configure-virtual-machine">Configure Virtual Machine
+&lt;/h2>&lt;p>Remove any spice/qxl components in your virtual machine setup and add your GPU to the PCI section. You should have two devices for your GPU, so add both.&lt;/p>
+&lt;h2 id="edit-gpu-xml">Edit GPU XML
+&lt;/h2>&lt;p>Enable XML editing in the settings of your virtual machine manager and insert &lt;code>&amp;lt;rom file='/var/lib/libvirt/vgabios/patched.rom'/&amp;gt;&lt;/code> into both of your GPU devices&amp;rsquo; XMLs, between &amp;ldquo;source&amp;rdquo; and &amp;ldquo;address.&amp;rdquo;&lt;/p>
+&lt;h2 id="add-devices">Add Devices
+&lt;/h2>&lt;p>Add your PCI host controller, audio controller, and any other devices you want to include.&lt;/p>
+&lt;h2 id="modify-qemu-file">Modify QEMU File
+&lt;/h2>&lt;p>Check the &lt;code>/etc/libvirt/hooks/qemu&lt;/code> file and edit the name of the placeholder &amp;ldquo;win10&amp;rdquo; to match your virtual machine&amp;rsquo;s name. You can also add new sections by copying the existing one below it and editing the name.&lt;/p>
+&lt;h1 id="conclusion">Conclusion
+&lt;/h1>&lt;p>If everything worked as expected, you now have an awesome setup that can run virtually any OS. You can enjoy gaming on Windows, code on your favorite Linux distribution, and maybe even tinker with BSD somehow. It&amp;rsquo;s all at your fingertips now.&lt;/p></description></item><item><title>Improved Wayland Screen Sharing</title><link>https://comfytechcorner.de/p/wayland-streaming/</link><pubDate>Thu, 19 Oct 2023 10:00:00 +0000</pubDate><guid>https://comfytechcorner.de/p/wayland-streaming/</guid><description>&lt;img src="https://comfytechcorner.de/p/wayland-streaming/cover.png" alt="Featured image of post Improved Wayland Screen Sharing" />&lt;h1 id="how-to-use-x-apps-that-cannot-capture-your-screen-on-wayland">How to Use x Apps That Cannot Capture Your Screen on Wayland
+&lt;/h1>&lt;p>Gone are the days when you couldn&amp;rsquo;t stream your screen on apps like Discord. Let me introduce you to a nifty tool called xwaylandvideobridge. It&amp;rsquo;s incredibly straightforward to set up and packs a punch in terms of functionality. So, grab a cup of tea, take a seat, and i will accompany you on this journey of seamless screen sharing with your friends on a modern graphics stack.&lt;/p>
+&lt;h2 id="installation">Installation
+&lt;/h2>&lt;h3 id="step-1-downloading">Step 1 Downloading
+&lt;/h3>&lt;ol>
+&lt;li>First, head over to &lt;a class="link" href="https://invent.kde.org/system/xwaylandvideobridge" target="_blank" rel="noopener"
+>xwaylandvideobridge on KDE GitLab&lt;/a>.&lt;/li>
+&lt;li>On the left sidebar, click on &amp;ldquo;CI/CD.&amp;rdquo;&lt;/li>
+&lt;li>Download the latest Flatpak archive artifact and unzip it. (Note: If the latest release doesn&amp;rsquo;t have any artifacts, proceed with the a older Release.)&lt;/li>
+&lt;/ol>
+&lt;h3 id="step-2-installing">Step 2 Installing
+&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>Ensure you have Flatpak and Flathub installed. (If you haven&amp;rsquo;t, visit &lt;a class="link" href="https://flathub.org/setup" target="_blank" rel="noopener"
+>Flathub setup&lt;/a>.)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open a terminal and navigate to your Downloads Folder.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Execute the following command:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">flatpak install xwaylandvideobridge.flatpak
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>If prompted, type &amp;lsquo;Y&amp;rsquo; and enter your password when necessary.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once the installation is complete, you can launch the program by running:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">flatpak run org.kde.xwaylandvideobridge
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;/ol>
+&lt;h3 id="step-3-autostart-optional">Step 3 Autostart (optional)
+&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>You can create a new text file named &amp;ldquo;videobridge.sh.&amp;rdquo; You can do this using a text editor or through the command line. For instance, in the terminal, you can use the following command to create the file:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">touch videobridge.sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Open the &amp;ldquo;videobridge.sh&amp;rdquo; file with a text editor of your choice, such as nano, vim, or gedit. For example:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">nano videobridge.sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>In the &amp;ldquo;videobridge.sh&amp;rdquo; file, insert the following line:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">flatpak run org.kde.xwaylandvideobridge
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>Save and close the file in your text editor. If you&amp;rsquo;re using nano, you can save by pressing Ctrl + O, then press Enter, and exit by pressing Ctrl + X.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Now, you&amp;rsquo;ll need to add the &amp;ldquo;videobridge.sh&amp;rdquo; script to your desktop environment&amp;rsquo;s autostart configuration. The process may vary depending on your desktop environment.&lt;/p>
+&lt;p>In KDE:&lt;/p>
+&lt;ul>
+&lt;li>Open &amp;ldquo;System Settings.&amp;rdquo;&lt;/li>
+&lt;li>Navigate to &amp;ldquo;Startup and Shutdown.&amp;rdquo; &amp;gt; &amp;ldquo;Autostart&amp;rdquo;&lt;/li>
+&lt;li>Click &amp;ldquo;Add Script.&amp;rdquo;&lt;/li>
+&lt;li>Browse and select the &amp;ldquo;videobridge.sh&amp;rdquo; script you created.&lt;/li>
+&lt;li>Save your changes, and the script will run automatically with every session.&lt;/li>
+&lt;/ul>
+&lt;p>For other desktop environments or window managers, there are similar ways to accomplish this.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="how-to-use-it">How to Use It
+&lt;/h2>&lt;p>Once you&amp;rsquo;ve started the application, every time you attempt to capture a window or your screen, a window will appear where you can choose the source of the video stream. After selecting one, xwaylandvideobridge should display a window that you can capture in the program you are using. I&amp;rsquo;ve mainly tested this with Discord, and it works virtually bug-free with excellent performance. Give it a try!&lt;/p></description></item></channel></rss>
