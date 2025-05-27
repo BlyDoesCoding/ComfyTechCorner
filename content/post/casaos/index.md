@@ -2,7 +2,7 @@
 title: CasaOS
 description: A Beautiful Server Web UI for Beginners
 slug: casaos
-date: 2024-01-16 10:00:00+0000
+date: 24-01-16 10:00:00+0000
 image: cover.jpg
 categories:
     - Guide
